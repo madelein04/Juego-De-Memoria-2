@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #422800;
+
+    background: rgb(237,143,184);
+    background: linear-gradient(90deg, rgba(237,143,184,1) 0%, rgba(228,172,226,1) 26%, rgba(100,142,191,1) 100%);
+}
+a{
+    text-decoration: none;
+    color: rgb(142, 220, 184);
+}
+
+main{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1vw;
+    margin:0  1vw;
+    margin-bottom: 0.5vw;
+    text-align: center;
+    padding: 1vw;
+    font-size: 2vw;
+}
+.section1 img{
+    width: 90%;
+}
+
+button {
+    background-color: #b79fde9a;
+    border: 2px solid #422800;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 2.5vw;
+    padding: 0 1.8vw;
+    text-align: center;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 1vw;
+    margin: 0.5vw;
+}
+
+button:hover {
+    background-color: #fff;
+}
+.section23{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+.section2{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1vw;
+    margin: 2vw;
+    text-align: center;
+    width: 28vw;
+    height: 28vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.estadisticas{
+    background-color: #b79fde9a;
+    border: 2px solid #422800;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 2vw;
+    padding: 0.5vw 1.87vw;
+    text-align: center;
+    width: 25vw;
+    height: auto;
+    border-radius: 1vw;
+    margin:  1.5vw ;
+}
+
+.section3{
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1vw;
+    margin:0  11vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 1vw;
+    width: 10vw;
+}
+.section3 img{
+    width: 2.5vw;
+}
+
+.estadisticas2{
+    background-color: #b79fde9a;
+    border: 2px solid #422800;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    font-size: 2vw;
+    padding: 0.5vw 1.87vw;
+    text-align: center;
+    width: 8vw;
+    height: auto;
+    border-radius: 1vw;
+}
+footer{
+    font-size: 1.2vw;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+@media (max-width: 1768px) {
+    .section1{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1vw;
+    margin:0  1vw;
+    margin-bottom: 0.5vw;
+    text-align: center;
+    padding: 1vw;
+    font-size: 2.5vw;
+    }
+
+    button {
+        font-weight: 600;
+        font-size: 2.5vw;
+        padding: 0 1.8vw;
+        width: 9.5vw;
+        height: 9.5vw;
+        border-radius: 1vw;
+        margin: 0.5vw;
+    }
+    
+}
+@media (max-width: 1568px) {
+
+
+    button {
+        font-weight: 600;
+        font-size: 2.5vw;
+        padding: 0 1.8vw;
+        width: 10.5vw;
+        height: 10.5vw;
+        border-radius: 1vw;
+        margin: 0.5vw;
+    }
+    
+}
+@media (max-width: 1500px) {
+
+
+    button {
+        font-weight: 600;
+        font-size: 2.5vw;
+        padding: 0 1.8vw;
+        width: 11vw;
+        height: 11vw;
+        border-radius: 1vw;
+        margin: 0.5vw;
+    }
+}
+@media (max-width: 1368px) {
+
+
+    button {
+        font-weight: 600;
+        font-size: 2.5vw;
+        padding: 0 1.8vw;
+        width: 12.9vw;
+        height: 12.9vw;
+        border-radius: 1vw;
+        margin: 0.5vw;
+    }
+    
+}
+@media (max-width: 1268px) {
+
+
+    button {
+        font-weight: 600;
+        font-size: 2.5vw;
+        padding: 0 1.8vw;
+        width: 13.9vw;
+        height: 13.9vw;
+        border-radius: 1vw;
+        margin: 0.5vw;
+    }
+    
+}
+@media (max-width: 1168px) {
+
+
+    button {
+        font-weight: 600;
+        font-size: 2.5vw;
+        padding: 0 1.8vw;
+        width: 14.5vw;
+        height: 14.5vw;
+        border-radius: 1vw;
+        margin: 0.5vw;
+    }
+    
+}
+@media (max-width: 1088px) {
+
+
+    button {
+        font-weight: 600;
+        font-size: 2.5vw;
+        padding: 0 1.8vw;
+        width: 14.75vw;
+        height: 14.75vw;
+        border-radius: 1vw;
+        margin: 0.5vw;
+    }
+    
+}
+
+@media (max-width: 928px) {
+
+    main{
+        flex-direction: column;
+    }
+
+    button {
+        font-size: 3.5vw;
+        width: 18.75vw;
+        height: 18.75vw;
+    }
+    .section1{
+    font-size: 5.8vw;
+    }
+    .section2{
+    width: 42vw;
+    height: auto;
+    }
+    
+    .estadisticas{
+    width: 40vw;
+    font-size: 3vw;
+    }
+    .section3{
+        width: 17.3vw;
+        margin-left: 15svw;
+    }
+    .estadisticas2{
+    width: 15vw;
+    }
+    .estadisticas2 img{
+    width: 10vw;
+    padding: 1vw;
+    }
+
+    footer{
+    font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 828px) {
+
+    button {
+        font-size: 3vw;
+        width: 18.5vw;
+        height: 18.5vw;
+    }
+    .section1{
+    font-size: 3.8vw;
+    }
+    
+    .estadisticas{
+    width: 40vw;
+    font-size: 2.5vw;
+    }
+    .section3{
+        width: 15vw;
+        margin-left: 15vw;
+    }
+    .estadisticas2{
+    width: 12.5vw;
+    }
+    .estadisticas2 img{
+    width: 8vw;
+    padding: 0.5vw;
+    }
+
+}
+
+@media (max-width: 778px) {
+
+    button {
+        font-size: 6vw;
+        width: 16vw;
+        height: 16vw;
+    }
+    .section1{
+    font-size: 3.8vw;
+    }
+    
+    .estadisticas{
+    width: 40vw;
+    font-size: 2.5vw;
+    }
+    .section3{
+        width: 15vw;
+        margin-left: 15vw;
+    }
+    .estadisticas2{
+    width: 12.5vw;
+    }
+    .estadisticas2 img{
+    width: 8vw;
+    padding: 0.5vw;
+    }
+
+}
+
+@media (max-width: 538px) {
+
+    button {
+        font-size: 6.5vw;
+        width: 19.75vw;
+        height: 19.75vw;
+    }
+    .section1{
+    font-size: 5vw;
+    }
+    .section2{
+    width: 60vw;
+    height: 45vw;
+    }
+    
+    .estadisticas{
+    width: 56vw;
+    font-size: 4.5vw;
+    }
+    .section3{
+        width: 19vw;
+        height: 18vw;
+        margin-left: 22vw;
+    }
+    .estadisticas2{
+    width: 16vw;
+    }
+    .estadisticas2 img{
+    width: 12vw;
+    padding: 0.5vw;
+    }
+
+    footer{
+    margin-top: 25vw;
+    font-size: 4vw;
+    }
+
+}
+
+
